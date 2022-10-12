@@ -1,0 +1,190 @@
+.home-header{
+    height: 60px;
+    width: 100%;
+    padding: 0 40px;
+    position: sticky;
+    top: 0;
+    background: #fff;
+    z-index: 1000;
+    .home-header-content{
+        display: flex;
+        
+        width: 100%;
+        height: 100%;
+        .left-content{
+            width: 25%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            i{
+                margin-top: 12px;
+                font-size: 25px;
+                color: #969495;
+            }
+            .header-logo{
+                cursor: pointer;
+                width: 100%;
+                height: 100%;
+                transform: scale(0.5, 0.5);
+                margin-left: -80px;
+            }
+        }
+        .center-content{
+            width: 50%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .child-center{
+                .title-sub{
+                    font-size: 12px;
+                    font-weight: 400;
+                }
+            }
+        }
+        .right-content{
+            width: 25%;
+            display: flex;
+            align-items: center;
+            padding: 10px;
+            justify-content: flex-end;
+            .support{
+                padding-right: 50px;
+                display: flex;
+                align-items: center;
+                i{
+                    color: #45c3d2;
+                }
+            }
+            .flag-vn {
+                margin: 10px;
+                cursor: pointer;
+                opacity: 0.2;
+                &.active{
+                    color: rgb(220, 145, 6);
+                    font-weight: bold;
+                    opacity: 1;
+                }
+                &:hover{
+                    opacity: 1;
+                }
+            }
+            .flag-en {
+                margin: 10px;
+                cursor: pointer;
+                opacity: 0.2;
+                &.active {
+                    color: rgb(6, 213, 141);
+                    font-weight: bold;
+                    opacity: 1;
+                }
+                &:hover {
+                    opacity: 1;
+                }
+            }
+        }
+    }
+}
+.home-banner{
+    height: 550px;
+    background-image: url(../../assets/bookingcare.jpg) ;
+    background-repeat:  no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 15px 0;
+    display: flex;
+    flex-direction: column;
+    
+    .content-up{
+        background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(255, 255, 255, 0.1));
+        padding-top: 15px;
+        height: 65%;
+
+        .title-1 {
+            text-align: center;
+            font-size: 30px;
+            color: #fff;
+            text-shadow: 1px 1px 1px #333;
+            margin-bottom: 5px;
+            margin-top: 20px;
+        }
+    
+        .title-2 {
+            text-align: center;
+            font-size: 30px;
+            color: #fff;
+            text-shadow: 1px 1px 1px #333;
+            margin-bottom: 15px;
+        }
+    
+        .search {
+            width: fit-content;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0 auto;
+            padding: 10px;
+            width: 400px;
+            border-radius: 30px;
+            background: #f7d800;
+    
+            i {
+                margin: 0 5px;
+            }
+    
+            input {
+                height: 30px;
+                width: 360px;
+                background: transparent;
+                border: none;
+                outline: none;
+            }
+        }
+    }
+    
+    .content-down{
+        
+        height: 35%;
+        background-image: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 1));
+        padding-top: 30px;
+        padding-bottom: 20px;
+
+        .options {
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            gap: 50px;
+            margin-top: 40pxs;
+            .option-child{
+                
+                width: 120px;
+                margin: 5px ;
+                .icon{
+                    background: #fff;
+                    color: #45c3d2;
+                    border-radius: 50%;
+                    box-shadow: 0px 1px 2px rgba(4, 2, 2, 0.5);
+                    width: 40px;
+                    height: 40px;
+                    margin: 0 auto;
+                    text-align: center;
+                    
+                    i{
+                        margin-top: 10px;
+                        font-size: 20px;
+                    }
+
+                }
+                .text {
+                    font-size: 15px;
+                    font-weight: bold;
+                    cursor: pointer;
+                    &:hover{color: #45c3d2;}
+                }
+                
+            }
+        }
+    }
+    
+
+}

@@ -1,0 +1,86 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h1>List user</h1>
+        <table class="table table-bordered mt-5">
+            <thead>
+                <tr>
+                    <th>Firstname</th>
+                    <th>Lastname</th>
+                    <th>Email</th>
+                    <th>Address</th>
+                    <th>Phone</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <% for(let i = 0; i < dataTable.length; i++ ) { %>
+                <tr>
+                    <td><%= dataTable[i].firstName %></td>
+                    <td><%= dataTable[i].lastName %></td>
+                    <td><%= dataTable[i].email %></td>
+                    <td><%= dataTable[i].address %></td>
+                    <td><%= dataTable[i].phonenumber %></td>
+                    <td>
+                        <a href="/edit-crud?id=<%= dataTable[i].id %>"><button>Edit</button></a>
+                        <a href="/delete-crud?id=<%= dataTable[i].id %>"><button>Delete</button></a>
+                    </td>
+                </tr>
+                <% } %>
+            </tbody>
+        </table>
+        <h2>Create User</h2>
+        <form action="/post-crud" method="POST">
+            <div class="form-group">
+                <label >Email :</label>
+                <input required type="email" class="form-control" name="email">
+            </div>
+            <div class="form-group">
+                <label >Password :</label>
+                <input type="password" class="form-control" name="password">
+            </div>
+            <div class="form-group">
+                <label >Fisrt Name :</label>
+                <input type="text" class="form-control" name="firstName">
+            <div class="form-group">
+                <label >Last Name :</label>
+                <input type="text" class="form-control" name="lastnName">
+            </div>
+            <div class="form-group">
+                <label >Address :</label>
+                <input type="text" class="form-control" name="address">
+            </div>
+            <div class="form-group">
+                <label >Gender :</label>
+                <select class="form-control" name="gender">
+                    <option value="1">Male</option>
+                    <option value="0">Female</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label >Phonenumber :</label>
+                <input type="text" class="form-control" name="phonenumber">
+            </div>
+            <div class="form-group">
+                <label >Role :</label>
+                <select class="form-control" name="roleId">
+                    <option value="1">Admin</option>
+                    <option value="2">Doctor</option>
+                    <option value="3">Professor</option>
+                </select>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+</body>
+</html>

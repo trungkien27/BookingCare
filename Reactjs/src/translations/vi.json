@@ -1,0 +1,73 @@
+{
+    "homeheader":{
+        "speciality": "Chuyên khoa",
+        "searchdocter": "Tìm bác sĩ theo chuyên khoa",
+        "health-facilities": "Cơ sở y tế",
+        "select-zoom": "Chọn bệnh viện phòng khám",
+        "docter": "Bác sĩ",
+        "select-docter": "Chọn bác sĩ giỏi",
+        "fee": "Gói khám",
+        "check-health": "Khám sức khỏe tổng quát",
+        "support": "Hỗ trợ",
+        "welcome": "Xin chào"
+    },
+    "banner":{
+        "title1": "NỀN TẢNG Y TẾ",
+        "title2": "CHĂM SÓC SỨC KHỎE TOÀN DIỆN",
+        "find": "Tìm chuyên khoa",
+        "optins1": "Khám Chuyên khoa",
+        "optins2": "Khám từ xa",
+        "optins3": "Khám tổng quát",
+        "optins4": "Xét nghiệm y học",
+        "optins5": "Sức khỏe tinh thần",
+        "optins6": "Khám nha khoa"
+    },
+    "login": {
+        "login": "Đăng nhập",
+        "username": "Tên đăng nhập",
+        "password": "Mật khẩu",
+        "userpass-wrong": "Sai tên đăng nhập hoặc mật khẩu!"
+    },
+    "menu": {
+        "admin": {
+            "manage-user": "Người dùng",
+            "manage-docter": "Quản lý Bác sĩ",
+            "manage-admin": "Quản lý admin",
+            "crud": "CRUD User",
+            "crud-redux": "CRUD ReDux",
+            "manage-clinic": "Quản lý Phòng Khám",
+            "clinic": "Phòng Khám",
+            "specialty": "Chuyên Khoa",
+            "manage-specialty": "Quản lý Chuyên Khoa",
+            "handbook": "Cẩm Nang",
+            "manage-handbook": "Quản lý Cẩm Nang",
+            "manage-Student": "Quản lý hoc sinh",
+            "student": "Hoc sinh"
+        }
+
+    },
+    "manage-user":{
+        "add": "Thêm Mới Người Dùng",
+        "no": "STT",
+        "email": "Email",
+        "password":"Mật khẩu",
+        "first-name": "Tên",
+        "last-name": "Họ",
+        "phone": "Số điện thoại",
+        "address": "Địa chỉ",
+        "actions": "Hành động",
+        "gender": "Giới tính",
+        "position": "Chức danh",
+        "role": "Vai trò",
+        "avata": "Ảnh đại diện",
+        "save": "Thêm mới",
+        "upload":"Tải ảnh",
+        "showimage": "Xem ảnh",
+        "edit": "Lưu thay đổi"
+    },
+    "homepage":{
+        "outstanding-docter":"Bác sĩ nổi bật tuần qua",
+        "more-info": "Xem thêm"
+    }
+    
+}

@@ -1,0 +1,36 @@
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+        <title>Document</title>
+    </head>
+
+    <body>
+        <div class="container">
+            <h2>Edit User</h2>
+            <form action="/put-crud" method="post">
+                <div class="form-group">
+                    <label>Fisrt Name :</label>
+                    <input value="<%= userData.firstName %>" type="text" class="form-control" name="firstName">
+                </div>
+                <div class="form-group">
+                    <label>Last Name :</label>
+                    <input value="<%= userData.lastName %>" type="text" class="form-control" name="lastName">
+                </div>
+                <div class="form-group">
+                    <label>Address :</label>
+                    <input value="<%= userData.address %>" type="text" class="form-control" name="address">
+                </div>
+                <input type="hidden" name="id" value="<%= userData.id %>">
+                <button type="submit" class="btn btn-primary">Save</button>
+            </form>
+        </div>
+    </body>
+
+</html>

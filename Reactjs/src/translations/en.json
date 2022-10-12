@@ -1,0 +1,72 @@
+{
+    "homeheader":{
+        "speciality": "Medical speciality",
+        "searchdocter": "Find a doctor by specialty",
+        "health-facilities": "Health facilities",
+        "select-zoom": "Choose hospital clinic",
+        "docter": "Doctor",
+        "select-docter": "Choose a good doctor",
+        "fee": "Checkup package",
+        "check-health": "General health check",
+        "support": "Support",
+        "welcome": "Welcome"
+    },
+    "banner":{
+        "title1": "MEDICAL PLATFORM",
+        "title2": "COMPREHENSIVE HEALTH CARE",
+        "find": "Find a specialty",
+        "optins1": "Specialized examination",
+        "optins2": "Remote examination",
+        "optins3": "General examination",
+        "optins4": "Medical test",
+        "optins5": "Mental health",
+        "optins6": "Dental examination"
+    },
+    "login": {
+        "login": "Login",
+        "username": "Username",
+        "password": "Password",
+        "userpass-wrong": "Invalid username or password!"
+    },
+    "menu": {
+        "admin": {
+            "manage-user": "User",
+            "manage-docter": "Doctor Management",
+            "manage-admin": "Admin Management",
+            "crud": "CRUD User",
+            "crud-redux": "CRUD ReDux",
+            "manage-clinic": "Clinic Management",
+            "clinic": "Clinic",
+            "specialty": "Specialty",
+            "manage-specialty": "Specialization Management",
+            "handbook": "Handbook",
+            "manage-handbook": "Handbook Management",
+            "manage-Student": "Manage Student",
+            "student": "Student"
+        }
+
+    },
+    "manage-user":{
+        "add": "Add new User",
+        "no": "No",
+        "email": "Email",
+        "password":"Password",
+        "first-name": "First Name",
+        "last-name": "Last Name",
+        "phone": "Phone number",
+        "address": "Address",
+        "actions": "Actions",
+        "gender": "Gender",
+        "position": "Position",
+        "role": "Role",
+        "avata": "Avata",
+        "save": "Save",
+        "upload":"Upload",
+        "showimage": "Show Image",
+        "edit": "Update"
+    },
+    "homepage":{
+        "outstanding-docter":"Last week's featured doctor",
+        "more-info": "More Infor"
+    }
+}
